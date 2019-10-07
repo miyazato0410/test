@@ -6,12 +6,14 @@ import com.internousdev.login.dao.LoginDAO;
 import com.internousdev.login.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-
-public class LoginAction extends ActionSupport{
+public class LoginAction extends 
+	ActionSupport{
 	private String name;
 	private String password;
 
-	public String execute() throws SQLException{
+	public String execute() throws 
+		SQLException{
+		
 		String ret=ERROR;
 
 		LoginDAO dao=new LoginDAO();
