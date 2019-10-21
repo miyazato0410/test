@@ -12,7 +12,7 @@ public class DBConnector{
 	/**
 	 * データベース接続 URL
 	 */
-	private static String url="jdbc:mysql;//localhost/testdb2";
+	private static String url="jdbc:mysql://localhost/testdb2";
 	/**
 	 * データベース接続ユーザー名
 	 */
@@ -23,7 +23,7 @@ public class DBConnector{
 	private static String password="mysql";
 
 public Connection getConnection(){
-	Connection con=null;
+Connection con=null;
 try{
 Class.forName(driverName);
 con=DriverManager.getConnection(url,user,password);

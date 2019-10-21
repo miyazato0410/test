@@ -1,9 +1,0 @@
-package com.internousdev.webproj.action;
-
-import com.opensymphony.xwok2.ActionSupport{
-
-}
-
-public class HelloStrutsAction {
-
-}
