@@ -1,0 +1,17 @@
+package com.internousdev.webproj4.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class LoginDAO {
+
+		public String username;
+		public String password;
+
+		public List<LoginDTO>loginDTOList=new ArrayList<LoginDTO>();
+
+		public List<LoginDTO>select(String username,String password){
+}
