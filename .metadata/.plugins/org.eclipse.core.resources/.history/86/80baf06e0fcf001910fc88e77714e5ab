@@ -1,7 +1,0 @@
-package jp.co.internous.action;
-
-public class  Android {
-	public class void main(String[] args){
-		SmartPhone Android=new SmartPhone();
-	}
-}
