@@ -14,7 +14,7 @@ public class InquiryDTO {
 	public String getQtype(){
 		return qtype;
 }
-	public void setQtype(String qtype) {
+	public void setQtype(String qtype){
 		this.qtype=qtype;
 }
 	public String getBody(){
